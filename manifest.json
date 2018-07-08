@@ -19,7 +19,7 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": "/",
+  "start_url": "/arapiles-pwa/",
   "display": "standalone",
   "theme_color": "#CD665F",
   "background_color": "#FFF7E3"
