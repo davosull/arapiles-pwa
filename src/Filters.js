@@ -13,7 +13,7 @@ let jsonData = this.props.jsonData;
 // clean up length
 Array.from(jsonData).forEach(function(element) {
   let y = element.length + '';
-  element.length = parseInt(y.split("m")[0]);
+  element.length = parseInt(y.split("m")[0], 10);
 });
 
 

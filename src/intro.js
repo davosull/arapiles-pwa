@@ -18,24 +18,24 @@ class Intro extends Component {
 <hr />
 <form className="leftPadding">
 
-<label class="checkContainer">Trad
+<label className="checkContainer">Trad
   <input type="checkbox" name="trad" checked={this.props.filterData.trad} onChange={this.props.handle} />
-  <span class="checkmark"></span>
+  <span className="checkmark"></span>
 </label>
 
-<label class="checkContainer">Sport
+<label className="checkContainer">Sport
   <input type="checkbox" name="sport" checked={this.props.filterData.sport} onChange={this.props.handle} />
-  <span class="checkmark"></span>
+  <span className="checkmark"></span>
 </label>
 
-<label class="checkContainer">Boulder
+<label className="checkContainer">Boulder
   <input type="checkbox" name="boulder" checked={this.props.filterData.boulder} onChange={this.props.handle} />
-  <span class="checkmark"></span>
+  <span className="checkmark"></span>
 </label>
 
-<label class="checkContainer">Mixed
+<label className="checkContainer">Mixed
   <input type="checkbox" name="mixed" checked={this.props.filterData.mixed} onChange={this.props.handle} />
-  <span class="checkmark"></span>
+  <span className="checkmark"></span>
 </label>
 
     </form>

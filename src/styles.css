@@ -1,5 +1,5 @@
 body {
-  background:url("../public/bg1.jpg");
+  background:url("bg1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: -200px;
@@ -42,7 +42,7 @@ body {
 }
 
 .browseContainer {
-  background:url("../public/bg1.jpg");
+  background:url("bg1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: -300px;
