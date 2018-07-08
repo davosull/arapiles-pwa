@@ -1,20 +1,26 @@
-   {
-      "short_name": "Arapiles",
-      "name": "Arapiles Guide",
-      "icons": [
-        {
-          "src": "favicon.ico",
-          "sizes": "192x192",
-          "type": "image/png"
-        },
-        {
-          "src": "android-chrome-512x512.png",
-          "sizes": "512x512",
-          "type": "image/png"
-        }
-      ],
-      "start_url": "./index.html",
-      "display": "standalone",
-      "theme_color": "#000000",
-      "background_color": "#ffffff"
+{
+  "short_name": "Arapiles",
+  "name": "Arapiles Offline Guide",
+  "description": "Browse arapiles routes and topos offline.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+{
+      "src": "512x512.png",
+      "sizes": "512x512",
+      "type": "image/x-icon"
+    },
+{
+      "src": "192x192.png",
+      "sizes": "192x192",
+      "type": "image/x-icon"
     }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#CD665F",
+  "background_color": "#FFF7E3"
+}
