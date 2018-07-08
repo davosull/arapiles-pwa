@@ -99,9 +99,9 @@ if (x.Name === element){
  <TransitionGroup>
               <CSSTransition key={location.key} classNames="fade" timeout={300}>
                 <Switch location={location}>
-<Route exact={true} path="/" render={(props) => <Intro filterData={this.props.filterData} handle={this.props.handle} {...props}/>} />
-<Route path="/crag/:crag" render={(props) => <Crags jsonData={jsonData} toggleFilters={this.props.toggleFilters} {...props}/>} />
-<Route path="/browse/" render={(props) => <Browse jsonData={jsonData} toggleFilters={this.props.toggleFilters} {...props}/>} />
+<Route exact={true} path={process.env.PUBLIC_URL + '/'} render={(props) => <Intro filterData={this.props.filterData} handle={this.props.handle} {...props}/>} />
+<Route path={process.env.PUBLIC_URL + '/crag/:crag'} render={(props) => <Crags jsonData={jsonData} toggleFilters={this.props.toggleFilters} {...props}/>} />
+<Route path={process.env.PUBLIC_URL + '/browse/'} render={(props) => <Browse jsonData={jsonData} toggleFilters={this.props.toggleFilters} {...props}/>} />
                 </Switch>
               </CSSTransition>
             </TransitionGroup>

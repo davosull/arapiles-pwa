@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Routes extends Component {
   render() {
 
-let imgsrc = "../../" + this.props.routeData.tags + ".png";
+let imgsrc = process.env.PUBLIC_URL + '/' + this.props.routeData.tags + ".png";
 
     return (
 <tbody className={(this.props.routeData.selected ? 'show' : 'hidden')}>

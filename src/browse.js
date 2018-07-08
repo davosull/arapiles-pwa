@@ -16,9 +16,9 @@ areas.sort();
     return (
    	<div>
     	          <div className="areaTitle">
-          <Link to='/'><img alt="back" className="backButton" src="../../back.png" /></Link>
+          <Link to={process.env.PUBLIC_URL + '/'}><img alt="back" className="backButton" src={process.env.PUBLIC_URL + '/back.png'} /></Link>
           <h2>Browse Areas</h2>
-<img alt="filter" className="filterButton" src="../../filter.png" onClick={this.props.toggleFilters} />
+<img alt="filter" className="filterButton" src={process.env.PUBLIC_URL + '/filter.png'} onClick={this.props.toggleFilters} />
 </div>
 <div className="first">
     	{ 

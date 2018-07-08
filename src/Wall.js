@@ -17,7 +17,7 @@ if (selected.length >  0) {
 <Link  to={`/crag/${this.props.crags}`}> 
 <div  className={(showItem ? 'showWall' : 'hiddenWall')}>
 <span className="boxText">{this.props.crags}</span>  
-<span className="boxText2">{selected.length}/{total.length} {'\u00A0'} <img alt="" src="../../next.png" /></span>
+<span className="boxText2">{selected.length}/{total.length} {'\u00A0'} <img alt="" src={process.env.PUBLIC_URL + '/next.png'} /></span>
 </div>
       </Link>   
     );
