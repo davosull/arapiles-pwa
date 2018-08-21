@@ -1,7 +1,7 @@
 {
-  "short_name": "Arapiles",
-  "name": "Arapiles Offline Guide",
-  "description": "Browse arapiles routes and topos offline.",
+  "short_name": "Railay",
+  "name": "Railay Climbing Guide",
+  "description": "Browse Railay routes and topos offline.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#CD665F",
-  "background_color": "#FFF7E3"
+  "theme_color": "#B0FC9E",
+  "background_color": "#FFFFFF"
 }
